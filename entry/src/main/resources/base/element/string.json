@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "basiclayout_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "basiclayout_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_BasicLayout",
+      "value": "entry_BasicLayout"
+    },
+    {
+      "name": "biacloyout_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "biacloyout_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_BiacLoyout",
+      "value": "entry_BiacLoyout"
+    },
+    {
+      "name": "meability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "meability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MeAbility",
+      "value": "entry_MeAbility"
+    },
+    {
+      "name": "teamability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "teamability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TeamAbility",
+      "value": "entry_TeamAbility"
+    },
+    {
+      "name": "homeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "homeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_HomeAbility",
+      "value": "entry_HomeAbility"
+    }
+  ]
+}

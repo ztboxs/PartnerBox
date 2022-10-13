@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="top"
+    ohos:orientation="vertical">
+
+    <ListContainer
+        ohos:id="$+id:hone_title"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+    </ListContainer>
+
+    <ListContainer
+        ohos:id="$+id:home_content"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#FF3CD2BB"
+        ohos:orientation="vertical"></ListContainer>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="50vp"
+        ohos:width="match_content"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:item_home_title"
+            ohos:text_size="22fp"
+            ohos:text_alignment="center"
+            ohos:background_element="red"
+            ohos:left_margin="10vp"
+            ohos:right_padding="10vp"
+            ohos:text_color="#979797"
+            ohos:height="50vp"
+            ohos:text="sssss"
+            ohos:width="match_content"
+            />
+
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="150vp"
+        ohos:left_margin="10vp"
+        ohos:right_padding="10vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:id="$+id:home_info_title_txt"
+            ohos:height="match_parent"
+            ohos:weight="3"
+            ohos:multiple_lines="true"
+            ohos:text_size="18fp"
+            ohos:text="Best Enterprise Wi-Fi Network Award of the Wireless Broadband Alliance 2020"
+            ohos:width="match_content"/>
+        <Image
+            ohos:id="$+id:home_info_img"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:scale_mode="zoom_center"
+            ohos:image_src="$media:me_one"
+            ohos:weight="2"/>
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,2 @@
+rootProject.name = 'partnerboxs'
+include ':entry'

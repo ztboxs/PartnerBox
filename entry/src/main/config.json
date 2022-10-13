@@ -1,0 +1,90 @@
+{
+  "app": {
+    "bundleName": "com.ztboxs.partnerbox",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+        }
+      ]
+    },
+    "package": "com.ztboxs.partnerbox",
+    "name": ".MyApplication",
+    "mainAbility": "com.ztboxs.partnerbox.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.ztboxs.partnerbox.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.ztboxs.partnerbox.view.MeAbility",
+        "description": "$string:meability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MeAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.ztboxs.partnerbox.view.TeamAbility",
+        "description": "$string:teamability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_TeamAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.ztboxs.partnerbox.view.HomeAbility",
+        "description": "$string:homeability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_HomeAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      }
+    ]
+  }
+}
