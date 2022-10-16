@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:left_padding="20vp"
+        ohos:right_padding="20vp"
+        ohos:top_padding="5vp"
+        ohos:weight="10">
+
+        <Text
+            ohos:id="$+id:news_title_name_txt"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_parent_left="true"
+            ohos:align_parent_top="true"
+            ohos:text="news_title"
+            ohos:text_size="22fp"/>
+
+        <Text
+            ohos:id="$+id:news_like_txt"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_bottom="$id:news_title_name_txt"
+            ohos:align_parent_right="true"
+            ohos:align_parent_top="true"
+            ohos:align_top="$id:news_title_name_txt"
+            ohos:text="likes:81"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:news_read_txt"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_bottom="$id:news_title_name_txt"
+            ohos:align_parent_top="true"
+            ohos:align_top="$id:news_title_name_txt"
+            ohos:left_of="$id:news_like_txt"
+            ohos:right_margin="10vp"
+            ohos:text="reads:54"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:news_title_txt"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:below="$id:news_title_name_txt"
+            ohos:multiple_lines="true"
+            ohos:text="Best Enterprise Wi-Fi Network Award of the Wireless Broadband Alliance 2020"
+            ohos:text_size="20vp"
+            ohos:top_padding="20vp"/>
+
+        <Image
+            ohos:id="$+id:news_img"
+            ohos:height="300vp"
+            ohos:width="match_parent"
+            ohos:below="$id:news_title_txt"
+            ohos:image_src="$media:news_image14"
+            ohos:scale_mode="clip_center"
+            ohos:top_margin="10vp"/>
+
+        <Text
+            ohos:id="$+id:news_info_txt"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:below="$id:news_img"
+            ohos:multiple_lines="true"
+            ohos:text=""
+            ohos:text_color="#FF000000"
+            ohos:text_size="18vp"
+            ohos:top_margin="10vp"/>
+    </DependentLayout>
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:orientation="horizontal">
+        <TextField
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:corner_bg_comment"
+            ohos:hint="Enter a comment."
+            ohos:right_margin="5vp"
+            ohos:left_padding="5vp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_size="16fp"
+            ohos:weight="4"/>
+        <Image
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:margin="2vp"
+            ohos:image_src="$media:message_icon"
+            ohos:weight="1"
+            ohos:scale_mode="zoom_center"/>
+
+        <Image
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:image_src="$media:collect_icon"
+            ohos:weight="1"
+            ohos:scale_mode="zoom_center"/>
+        <Image
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:image_src="$media:like_icon"
+            ohos:weight="1"
+            ohos:scale_mode="zoom_center"/>
+        <Image
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:image_src="$media:share_icon"
+            ohos:weight="1"
+            ohos:scale_mode="zoom_center"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

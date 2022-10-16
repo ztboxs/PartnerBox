@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+
+    <PageSlider
+        ohos:id="$+id:vpager"
+        ohos:width="match_parent"
+        ohos:height="match_parent"/>
+
+
+<!--    <Component-->
+<!--        ohos:id="$+id:div_tab_bar"-->
+<!--        ohos:width="match_parent"-->
+<!--        ohos:height="2vp"-->
+<!--        ohos:background_element="red"/>-->
+
+    <DirectionalLayout
+        ohos:id="$+id:ls_content"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"/>
+    <RadioContainer
+        ohos:layout_alignment="bottom"
+        ohos:id="$+id:table_list"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="5vp"
+        ohos:align_parent_bottom="true"
+        ohos:orientation="horizontal">
+        <RadioButton
+            ohos:id="$+id:home_icons"
+            ohos:height="match_content"
+            ohos:check_element="null"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text_color_on="#41be58"
+            ohos:text="首页"
+            ohos:layout_alignment="center"
+            ohos:element_top="$media:home"
+            ohos:text_size="10vp"/>
+        <RadioButton
+            ohos:id="$+id:tame_icons"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text_color_on="#41be58"
+            ohos:text="队伍"
+            ohos:layout_alignment="center"
+            ohos:element_top="$media:team"
+            ohos:check_element="null"
+            ohos:text_size="10vp"/>
+        <RadioButton
+            ohos:id="$+id:me_icons"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text_color_on="#41be58"
+            ohos:text="个人"
+            ohos:layout_alignment="center"
+            ohos:element_top="$media:me"
+            ohos:check_element="null"
+            ohos:text_size="10vp"/>
+
+    </RadioContainer>
+
+
+
+</StackLayout>

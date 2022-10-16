@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F2F2F2"
+    ohos:orientation="vertical">
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="319vp"
+        ohos:hint="请输入手机号"
+        ohos:text_size="17fp"
+        ohos:text_color="#999999"
+        ohos:multiple_lines="false"
+        ohos:text_alignment="center"
+        ohos:top_margin="100vp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:layout_alignment="horizontal_center"/>
+    <TextField
+        ohos:height="50vp"
+        ohos:width="319vp"
+        ohos:hint="请输入密码"
+        ohos:text_size="17fp"
+        ohos:multiple_lines="false"
+        ohos:text_color="#999999"
+        ohos:text_alignment="center"
+        ohos:top_margin="10vp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:layout_alignment="horizontal_center"/>
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="忘记密码?"
+        ohos:text_size="17fp"
+        ohos:text_color="#979797"
+        ohos:text_alignment="center"
+        ohos:top_margin="13vp"
+        ohos:layout_alignment="right"
+        ohos:right_margin="20vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:top_margin="40vp"
+        ohos:left_padding="10vp"
+        ohos:right_padding="10vp"
+        ohos:orientation="horizontal">
+
+
+        <Button
+            ohos:height="47vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="注册"
+            ohos:text_size="24vp"
+            ohos:text_color="#FEFEFE"
+            ohos:right_margin="10vp"
+            ohos:text_alignment="center"
+            ohos:background_element="$graphic:background_button_field"
+            ohos:layout_alignment="horizontal_center"/>
+
+
+        <Button
+            ohos:height="47vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="登入"
+            ohos:text_size="24vp"
+            ohos:right_margin="10vp"
+            ohos:text_color="#FEFEFE"
+            ohos:text_alignment="center"
+            ohos:background_element="$graphic:background_button_field"
+            ohos:layout_alignment="horizontal_center"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

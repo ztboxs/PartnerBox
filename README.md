@@ -1,2 +1,0 @@
-# PartnerBox
-HarmonyApp
